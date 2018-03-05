@@ -38,6 +38,7 @@ https://pypi.python.org/pypi/mecab-python3
 
 In python2, the available wrapper is not on PiPy, so we download manually:
 
+https://github.com/SamuraiT/mecab-python3
 https://pypi.python.org/pypi/mecab-python/0.996
 
 Download the file mecab-python-0.996.tar.gz to ~/

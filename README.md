@@ -39,8 +39,10 @@ https://github.com/SamuraiT/mecab-python3
 
 **Note: I do not claim any property over these projects, my code is only an example of usage **
 
-`pip3 install mecab-python3`
-
+Install with pip:
+```
+pip3 install mecab-python3
+```
 ### Python 2:
 
 In python2, the available wrapper is not on PiPy, so we download manually:

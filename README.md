@@ -1,4 +1,4 @@
-# MeCab Japanese parser usage in python
+# MeCab Japanese parser usage example in Python
 
 MeCab is a Japanese language parsing tool and as such, it is widely discussed and documented only in Japanese.
 If you wish to parse Japanese texts but aren' confident reading the documentation, this example might be of use to you.
@@ -29,8 +29,15 @@ sudo apt-get install mecab mecab-ipadic-utf8
 ### Python 3:
 
 Now there is already a library dedicated to wrap MeCab in python3 available in PiPy.
+The original project, copyright and install files can be found at:
 
 https://pypi.python.org/pypi/mecab-python3
+
+Also available at GitHub at:
+
+https://github.com/SamuraiT/mecab-python3
+
+**Note: I do not claim any property over these projects, my code is only an example of usage **
 
 `pip3 install mecab-python3`
 
@@ -38,7 +45,6 @@ https://pypi.python.org/pypi/mecab-python3
 
 In python2, the available wrapper is not on PiPy, so we download manually:
 
-https://github.com/SamuraiT/mecab-python3
 https://pypi.python.org/pypi/mecab-python/0.996
 
 Download the file mecab-python-0.996.tar.gz to ~/

@@ -26,9 +26,9 @@ sudo apt-get install mecab mecab-ipadic-utf8
 
 ## Install Python wrapper
 
-### Python 3:
+### Python:
 
-Now there is already a library dedicated to wrap MeCab in python3 available in PiPy.
+Now there is already a library dedicated to wrap MeCab in python available in PiPy.
 The original project, copyright and install files can be found at:
 
 https://pypi.python.org/pypi/mecab-python3
@@ -37,24 +37,12 @@ Also available at GitHub at:
 
 https://github.com/SamuraiT/mecab-python3
 
-**Note: I do not claim any property over these projects, my code is only an example of usage **
+**Note: I do not claim any property over these projects, my code is only an example of usage**
 
 Install with pip:
+
 ```
 pip3 install mecab-python3
-```
-### Python 2:
-
-In python2, the available wrapper is not on PiPy, so we download manually:
-
-https://pypi.python.org/pypi/mecab-python/0.996
-
-Download the file mecab-python-0.996.tar.gz to ~/
-
-Terminal>>
-```
-pip2 install mecab-python-0.996.tar.gz
-rm mecab-python-0.996.tar.gz
 ```
 
 Then in Python:
